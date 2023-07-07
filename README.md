@@ -72,9 +72,11 @@ Rename sample.env to .env
     
 <img width="289" alt="Screenshot 2023-07-06 at 21 19 55" src="https://github.com/apivideo/azure-media-services-api-video-migration/assets/60220723/befc9274-f59c-4857-8905-00db4f545b61">
 
+<img width="349" alt="Screenshot 2023-07-06 at 21 23 14" src="https://github.com/apivideo/azure-media-services-api-video-migration/assets/60220723/1337c19c-0e8a-45b7-b818-5ca764b65aad">
+
+
 4. Now we also need to get access to the storage, so navigate to the Azure Storage Account → Shared access signature:
     
-<img width="349" alt="Screenshot 2023-07-06 at 21 23 14" src="https://github.com/apivideo/azure-media-services-api-video-migration/assets/60220723/1337c19c-0e8a-45b7-b818-5ca764b65aad">
 
 <img width="318" alt="Screenshot 2023-07-06 at 21 24 55" src="https://github.com/apivideo/azure-media-services-api-video-migration/assets/60220723/8a1612b4-e4c6-44f0-b84f-c734b513802d">
 
@@ -86,9 +88,8 @@ Rename sample.env to .env
     
 6. And make sure that you generate the Shared access signature and once you have the links, copy the Blob service SAS URL link to the `.env` file. The parameter you are looking for is `REMOTESTORAGEACCOUNTSAS`
 
-![Uploading Screenshot 2023-07-06 at 21.29.06.png…]()
+<img width="243" alt="Screenshot 2023-07-06 at 21 29 06" src="https://github.com/apivideo/azure-media-services-api-video-migration/assets/60220723/427dc0ef-fbb3-4f89-b891-0b1d1793b795">
 
-![Uploading Screenshot 2023-07-06 at 21.28.37.png…]()
     
 ## Execution
 
