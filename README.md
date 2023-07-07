@@ -65,26 +65,30 @@ Rename sample.env to .env
 
 2. In the previous step, you will also need to update the `.env` file and grab the parameters from Azure. In order to do that, navigate to your Azure Media Service, and select the directory that you would like to migrate:
     
-    ![Screenshot 2023-07-06 at 21.19.26.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/04baa900-afd1-476a-beea-87669a742ff4/Screenshot_2023-07-06_at_21.19.26.png)
+<img width="853" alt="Screenshot 2023-07-06 at 21 19 26" src="https://github.com/apivideo/azure-media-services-api-video-migration/assets/60220723/78bca7f0-aa57-4c82-842d-6852eeb7a313">
+
     
 3. Select API keys and copy over the parameters presented in the `.ENV` pane (you can select to either do the User Authentication or Service principal authentication it’s really up to you, in terms of what you’ve configured on your end
     
-    ![Screenshot 2023-07-06 at 21.19.55.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/30ef3fb3-2659-49b0-a1d5-a02367200d24/Screenshot_2023-07-06_at_21.19.55.png)
-    
-    ![Screenshot 2023-07-06 at 21.23.14.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/34b1d947-c41c-4f66-94bb-e3e41a5fb23f/Screenshot_2023-07-06_at_21.23.14.png)
-    
+<img width="289" alt="Screenshot 2023-07-06 at 21 19 55" src="https://github.com/apivideo/azure-media-services-api-video-migration/assets/60220723/befc9274-f59c-4857-8905-00db4f545b61">
 
 4. Now we also need to get access to the storage, so navigate to the Azure Storage Account → Shared access signature:
     
-    ![Screenshot 2023-07-06 at 21.24.55.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/31d6501f-2df2-4d14-ba08-06ce174537cc/Screenshot_2023-07-06_at_21.24.55.png)
+<img width="349" alt="Screenshot 2023-07-06 at 21 23 14" src="https://github.com/apivideo/azure-media-services-api-video-migration/assets/60220723/1337c19c-0e8a-45b7-b818-5ca764b65aad">
+
+<img width="318" alt="Screenshot 2023-07-06 at 21 24 55" src="https://github.com/apivideo/azure-media-services-api-video-migration/assets/60220723/8a1612b4-e4c6-44f0-b84f-c734b513802d">
+
     
-5. Allow the following:
+5. Allow the following parameters:
     
-    ![Screenshot 2023-07-06 at 21.28.00.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3a91d4ef-e5df-40bd-b022-f4b2d9335d7e/Screenshot_2023-07-06_at_21.28.00.png)
+<img width="917" alt="Screenshot 2023-07-06 at 21 28 00" src="https://github.com/apivideo/azure-media-services-api-video-migration/assets/60220723/b4256679-de95-4009-a6f1-80f6bb39ac5e">
+
     
 6. And make sure that you generate the Shared access signature and once you have the links, copy the Blob service SAS URL link to the `.env` file. The parameter you are looking for is `REMOTESTORAGEACCOUNTSAS`
-    
-    ![Screenshot 2023-07-06 at 21.29.06.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/38e8c885-a1aa-4e9d-95d1-893e3c073b78/Screenshot_2023-07-06_at_21.29.06.png)
+
+![Uploading Screenshot 2023-07-06 at 21.29.06.png…]()
+
+![Uploading Screenshot 2023-07-06 at 21.28.37.png…]()
     
 ## Execution
 
