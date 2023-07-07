@@ -90,6 +90,10 @@ Rename sample.env to .env
 
 <img width="243" alt="Screenshot 2023-07-06 at 21 29 06" src="https://github.com/apivideo/azure-media-services-api-video-migration/assets/60220723/427dc0ef-fbb3-4f89-b891-0b1d1793b795">
 
+7. Add the api.video API key to the `.env` file, by navigating to the api.video dashboard https://dashboard.api.video/apikeys and copy the API key value
+
+<img width="1195" alt="Screenshot 2023-07-07 at 20 17 45" src="https://github.com/apivideo/azure-media-services-api-video-migration/assets/60220723/83fcbce8-4983-49ee-8ec6-16346391ab9b">
+
     
 ## Execution
 
